@@ -18,3 +18,4 @@ source ./run.sh
 ```
 
 - Make sure to make a folder named `workspace` and keep your code in it, otherwise it would not be persistent.
+- Tools like `vim` or `kinit` are already available so you can connect to or send job to FermiGrid.
