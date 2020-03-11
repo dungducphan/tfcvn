@@ -21,6 +21,7 @@ RUN python3 -m pip install --upgrade pandas==0.24.0
 RUN python3 -m pip install --upgrade progbar
 RUN python3 -m pip install --upgrade tables
 RUN apt-get install -qy vim
+RUN apt-get install -qy emacs
 ENV DEBIAN_FRONTEND=noninteractive
 RUN echo ${DEBIAN_FRONTEND}
 RUN apt-get -y -qq install krb5-user
