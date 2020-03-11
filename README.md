@@ -13,7 +13,8 @@ brew cask install xquartz
 ```bash
 git clone https://github.com/dungducphan/tfcvn.git
 cd tfcvn
+mkdir workspace
 source ./run.sh
 ```
 
-- Make sure keep your code in `workspace` folder, otherwise it would not be persistent.
+- Make sure to make a folder named `workspace` and keep your code in it, otherwise it would not be persistent.
